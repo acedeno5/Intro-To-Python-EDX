@@ -2,44 +2,44 @@
 
 # Lowercasing everything that the user inputs
 
-# InnerVoice = input(" Type Whatever you want! ").lower()
+"""
+InnerVoice = input(" Type Whatever you want! ").lower()
 
-# print(InnerVoice)
-
+print(InnerVoice)
+"""
 # Finished
 
-
+#submitted
 
 # (-------------- PlayBack Speed ----------)
 
 # Inserting ... in between each spance
 
-# PlayBack = input("Say a Sentence. We are going to Slow it Down for you. ").replace(" ", "...")
+PlayBack = input("Say a Sentence. We are going to Slow it Down for you. ").replace(" ", "...")
 
-# print(PlayBack)
+print(PlayBack)
 
 # Finished
 
-
+#submitted
 
 # (--------------- Making Faces ---------------)
 
 # implement a function called convert that accepts a str as input and returns that same input with any :) and returns an emoji instead
 
 
-# def main():
-   #  str = input("Say a sentence to change the some of the text to be emojified!")
-   #  print(convert(str))
+def main():
+   str = input("Say a sentence to change the some of the text to be emojified!")
+   print(convert(str))
     
-# def convert(str):
-     # str = str.replace(":(","🙁").replace(":)", "🙂")
-    # return str
+def convert(str):
+    str = str.replace(":(","🙁").replace(":)", "🙂")
+    return str
 
-# main()
+main()
 
 #Finished
-
-
+#submitted
 
 
 
@@ -67,11 +67,11 @@
 # e = m * c * c
 # print(e)
 
-
+#submitted
 
 # (-----------  Tip Calc -------------------)
 
-def main():
+""" def main():
     dollars = dollars_to_float(input("How much was the meal? "))
     percent = percent_to_float(input("What percentage would you like to tip? "))
     tip = dollars * percent
@@ -89,6 +89,8 @@ def percent_to_float(p):
     return p_converted
 
 
-main()
+main() """
 
 #FINISHED
+
+#submitted

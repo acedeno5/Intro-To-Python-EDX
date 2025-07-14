@@ -24,6 +24,7 @@ for letter in camelCase:
 # Print Space in the end
 print()"""
 #Finished
+#submitted
 
 # (---------Coke Machine---------------)
 
@@ -49,7 +50,7 @@ change_owed = abs(amount_due)
 print("Change Owed: ", change_owed)"""
 
 #Finished
-
+#submitted
 
 # (---------Just setting up my twttr---------------)
 

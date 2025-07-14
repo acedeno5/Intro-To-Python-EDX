@@ -20,6 +20,7 @@
 # else: print("No")
 
 #Finished
+#submitted
 
 
 #(---------Home Federal Savings Bank-----------)
@@ -45,6 +46,7 @@
 # print("$100")
     
     #Finished
+    #submitted
 
 # (--------File Extensions-----------------------)
 
@@ -82,6 +84,7 @@
     # print("application/ octet-stream")
     
 # Finished
+#submitted
 
 #(------------Math Interpreter---------------------)
 
@@ -112,6 +115,7 @@
 
 #Finished 
 
+#submitted
 
 
 #(---------------Meal Time-----------------------)
@@ -149,3 +153,4 @@ if __name__ == "__main__":
     main()
     
 #Finished 
+#submitted
