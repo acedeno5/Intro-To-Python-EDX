@@ -1,0 +1,3 @@
+Experienced software engineer skilled in Python, Java, and web development.
+Built scalable APIs and worked on full-stack applications using React and Flask.
+Strong communication and problem-solving abilities. Passionate about clean code, agile methodologies, and continuous learning.

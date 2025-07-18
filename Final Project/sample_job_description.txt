@@ -1,0 +1,3 @@
+We are seeking a software engineer proficient in Python and Java with experience in building REST APIs and full-stack applications.
+Familiarity with frameworks like Flask or Django and frontend tools like React is a plus.
+Excellent communication, teamwork, and problem-solving skills are required. Knowledge of agile development is preferred.
