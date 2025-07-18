@@ -53,7 +53,94 @@ print("Change Owed: ", change_owed)"""
 #submitted
 
 # (---------Just setting up my twttr---------------)
+# Get the user's input
+answer = input("Input: ")
+#Print "Output"
+print("Output: ", end = "")
+
+# Loop through every letter
+for letter in answer:
+    #Check if it is not vowels whether inputted in upper case or lowercase
+    if not letter.lower() in ['a','e','i','o', 'u']:
+        #Print the letter
+        print(letter,end="")
+#Print new line
+print()
+
+#Finished and Submitted
 
 # (---------Vanity Plates---------------)
+def main():
+    plate = input("Plate: ")
+    if is_valid(plate):
+        print("Valid")
+    else:
+        print("Invalid")
+
+
+def is_valid(s):
+    # vanity plates may contain a maxium of 6 character (letters or numbers) and a min of 2 characters (letters or numbers)
+    if len(s) < 2 or len(s) > 6:
+        return False
+    # All vanity plates must start with at least two letter
+    if s[0].isalpha() == False or s[1].isalpha() == False:
+        return False
+    # Numbers can't be used in the middle of the plate and must come at the end
+    # The first number can't be a '0'
+    number_started = False
+    for i in range(len(s)):
+        if s[i].isdigit():
+            if number_started == False:
+                if s[i] == '0':
+                    return False
+                number_started = True
+        elif number_started:
+            # A letter appears after number has started
+            return False
+    # No periods, spaces, or punctation marks are allowed
+    for c in s:
+        if not c.isalnum():
+            return False
+    # If we pass all the tests, return True
+    return True
+
+
+main()
+
+#Finished and Submitted
+
 
 # (---------Nutrition Facts---------------)
+
+#Create dictionary with all fruits and its calories
+fruits = {
+    "apple" : "130",
+    "avocado" : "50",
+    "banana" : "110",
+    "cantaloupe" : "50",
+    "grapefruit" : "60",
+    "grapes" : "90",
+    "honeydew melon" : "50",
+    "kiwifruit" : "90",
+    "lemon" : "15",
+    "lime" : "20",
+    "nectarine" : "50",
+    "orange" : "80",
+    "peach" : "60",
+    "pear" : "100",
+    "pineapple" : "50",
+    "plums" : "70",
+    "strawberries" : "50",
+    "sweet cherries" : "100",
+    "tangarine" : "50",
+    "water melon" : "80"
+}
+
+# Get user input
+fruit_asked = input("Item: ")
+# loop through fruits dictionary
+for key in fruits:
+    # Find the fruit asked (remember to use lowercase)
+    if key in fruit_asked.lower():
+        # Print fruit's calories
+        print("Calories:",fruits[key])
